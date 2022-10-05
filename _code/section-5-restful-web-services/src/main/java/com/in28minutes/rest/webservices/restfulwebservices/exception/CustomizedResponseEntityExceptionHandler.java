@@ -5,6 +5,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -35,8 +36,16 @@ public class CustomizedResponseEntityExceptionHandler extends ResponseEntityExce
     @Override
     protected ResponseEntity<Object> handleMethodArgumentNotValid(MethodArgumentNotValidException ex, HttpHeaders headers,
                                                              HttpStatusCode status, WebRequest request) {
+        StringBuilder builder = new StringBuilder();
+        Integer fieldErrorsCount = 0;
+
+        for (FieldError error : ex.getFieldErrors()) {
+            builder.append("ERROR " + ++fieldErrorsCount + ": " + error.getDefaultMessage() + ", ");
+        }
+
         ErrorDetails errorDetails = new ErrorDetails(LocalDate.now(),
-                ex.getMessage(), request.getDescription(false));
+                builder.toString(), request.getDescription(false));
+
 
         return new ResponseEntity(errorDetails, HttpStatus.BAD_REQUEST);
     }
