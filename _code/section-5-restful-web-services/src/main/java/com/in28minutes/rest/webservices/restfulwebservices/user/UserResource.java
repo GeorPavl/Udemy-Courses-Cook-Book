@@ -16,7 +16,7 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 @RestController
 public class UserResource {
 
-    private UserDaoService service;
+    private final UserDaoService service;
 
     public UserResource(UserDaoService service) {
         this.service = service;
