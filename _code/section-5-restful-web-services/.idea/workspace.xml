@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f53c2953-9343-4a12-a76a-7b881390516b" name="Changes" comment="update Spring Boot Actuator dependency">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/RestfulWebServicesApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/exception/CustomizedResponseEntityExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/exception/ErrorDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/filtering/FilteringController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/filtering/SomeBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/helloworld/HelloWorldBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/helloworld/HelloWorldController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/UserDaoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/UserResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/versioning/Name.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/versioning/PersonV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/versioning/PersonV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/versioning/VersionPersonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages_nl.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/in28minutes/rest/webservices/restfulwebservices/RestfulWebServicesApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Fi9xyeRk0syf2JUmNYnaZ9kNuK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "last_directory_selection": "C:/Users/giorgos.pavlogou/Documents/Courses/Master-Java-Web-Services-and-REST-API-with-Spring-Boot/_code/section-5-restful-web-services/src/main/java/com/in28minutes/rest/webservices/restfulwebservices",
+    "last_opened_file_path": "C:/Users/giorgos.pavlogou/Documents/Courses/Master-Java-Web-Services-and-REST-API-with-Spring-Boot/_code/section-5.2-learn-jpa-and-hibernate",
+    "settings.editor.selected.configurable": "project.propCompiler"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.in28minutes.rest.webservices.restfulwebservices.filtering" />
+      <recent name="com.in28minutes.rest.webservices.restfulwebservices.versioning" />
+      <recent name="com.in28minutes.rest.webservices.restfulwebservices.user" />
+      <recent name="com.in28minutes.rest.webservices.restfulwebservices.helloworld" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="RestfulWebServicesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.in28minutes.rest.webservices.restfulwebservices.RestfulWebServicesApplication" />
+      <module name="restful-web-services" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.in28minutes.rest.webservices.restfulwebservices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RestfulWebServicesApplication" />
+        <item itemvalue="Application.RestfulWebServicesApplication" />
+        <item itemvalue="Application.RestfulWebServicesApplication" />
+        <item itemvalue="Application.RestfulWebServicesApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f53c2953-9343-4a12-a76a-7b881390516b" name="Changes" comment="" />
+      <created>1664964288162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664964288162</updated>
+    </task>
+    <task id="LOCAL-00001" summary="implement hello-world controller">
+      <created>1664965755041</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664965755041</updated>
+    </task>
+    <task id="LOCAL-00002" summary="implement hello-world-bean controller">
+      <created>1664966193398</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664966193398</updated>
+    </task>
+    <task id="LOCAL-00003" summary="set logging level on application.properties">
+      <created>1664967045906</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664967045906</updated>
+    </task>
+    <task id="LOCAL-00004" summary="implement controller with path variable">
+      <created>1664967236879</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664967236880</updated>
+    </task>
+    <task id="LOCAL-00005" summary="implement user entity and dao service for social media app">
+      <created>1664973951135</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664973951135</updated>
+    </task>
+    <task id="LOCAL-00006" summary="implement controller and service for findOne() and findAll() methods">
+      <created>1664974505483</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664974505483</updated>
+    </task>
+    <task id="LOCAL-00007" summary="implement controller and service for save() method">
+      <created>1664975057601</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664975057601</updated>
+    </task>
+    <task id="LOCAL-00008" summary="refactor post-mapping to return ResponseEntity&lt;&gt;">
+      <created>1664975758584</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664975758584</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactor findOne() method and implement UserNotFoundException">
+      <created>1664976361678</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664976361678</updated>
+    </task>
+    <task id="LOCAL-00010" summary="implement custom ResponseEntityException handler">
+      <created>1664977875465</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664977875465</updated>
+    </task>
+    <task id="LOCAL-00011" summary="implement delete method in Dao Service and Controller">
+      <created>1664978330108</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664978330108</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add validations dependency">
+      <created>1664978491248</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664978491248</updated>
+    </task>
+    <task id="LOCAL-00013" summary="implement custom handler for bad request using validations">
+      <created>1664979157826</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664979157826</updated>
+    </task>
+    <task id="LOCAL-00014" summary="implement custom handler for bad request using validations #2 (multiple errors in message)">
+      <created>1664979989060</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664979989060</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add dependency in pom.xml for springdoc-openapi">
+      <created>1665053149241</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1665053149241</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add @Lombok dependency and messages.properties">
+      <created>1665256080244</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1665256080244</updated>
+    </task>
+    <task id="LOCAL-00017" summary="implement versioning, using URLs">
+      <created>1665256951785</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1665256951785</updated>
+    </task>
+    <task id="LOCAL-00018" summary="implement versioning, using Request Parameter">
+      <created>1665257419285</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1665257419285</updated>
+    </task>
+    <task id="LOCAL-00019" summary="implement versioning, using Accept Request Parameter">
+      <created>1665258660613</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1665258660613</updated>
+    </task>
+    <task id="LOCAL-00020" summary="implement hateoas">
+      <created>1665259564427</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1665259564427</updated>
+    </task>
+    <task id="LOCAL-00021" summary="implement static filtering">
+      <created>1665260630684</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1665260630684</updated>
+    </task>
+    <task id="LOCAL-00022" summary="implement dynamic filtering">
+      <created>1665261257666</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1665261257666</updated>
+    </task>
+    <task id="LOCAL-00023" summary="refactor dynamic filtering">
+      <created>1665262358473</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1665262358473</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add Spring Boot Actuator">
+      <created>1665262854220</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1665262854220</updated>
+    </task>
+    <task id="LOCAL-00025" summary="update Spring Boot Actuator dependency">
+      <created>1665263926353</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1665263926353</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="implement hello-world controller" />
+    <MESSAGE value="implement hello-world-bean controller" />
+    <MESSAGE value="set logging level on application.properties" />
+    <MESSAGE value="implement controller with path variable" />
+    <MESSAGE value="implement user entity and dao service for social media app" />
+    <MESSAGE value="implement controller and service for findOne() and findAll() methods" />
+    <MESSAGE value="implement controller and service for save() method" />
+    <MESSAGE value="refactor post-mapping to return ResponseEntity&lt;&gt;" />
+    <MESSAGE value="refactor findOne() method and implement UserNotFoundException" />
+    <MESSAGE value="implement custom ResponseEntityException handler" />
+    <MESSAGE value="implement delete method in Dao Service and Controller" />
+    <MESSAGE value="add validations dependency" />
+    <MESSAGE value="implement custom handler for bad request using validations" />
+    <MESSAGE value="implement custom handler for bad request using validations #2 (multiple errors in message)" />
+    <MESSAGE value="add dependency in pom.xml for springdoc-openapi" />
+    <MESSAGE value="add @Lombok dependency and messages.properties" />
+    <MESSAGE value="implement versioning, using URLs" />
+    <MESSAGE value="implement versioning, using Request Parameter" />
+    <MESSAGE value="implement versioning, using Accept Request Parameter" />
+    <MESSAGE value="implement hateoas" />
+    <MESSAGE value="implement static filtering" />
+    <MESSAGE value="implement dynamic filtering" />
+    <MESSAGE value="refactor dynamic filtering" />
+    <MESSAGE value="add Spring Boot Actuator" />
+    <MESSAGE value="update Spring Boot Actuator dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Spring Boot Actuator dependency" />
+  </component>
+</project>
