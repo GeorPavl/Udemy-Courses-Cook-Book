@@ -36,6 +36,11 @@ public class User {
     @OneToMany(mappedBy = "user")
     private List<Post> posts;
 
+    public User(String name, LocalDate birthDate) {
+        this.name = name;
+        this.birthDate = birthDate;
+    }
+
     public User(Integer id, String name, LocalDate birthDate) {
         this.id = id;
         this.name = name;
