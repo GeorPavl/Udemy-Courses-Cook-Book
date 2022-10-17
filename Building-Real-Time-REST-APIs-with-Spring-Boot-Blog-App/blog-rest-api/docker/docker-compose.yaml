@@ -1,0 +1,32 @@
+#version: "3.9"
+services:
+  mysql:
+    # use latest mysql 8.0 image
+    image: "mysql:8.0"
+    restart: always
+    # custom name for container
+    container_name: blog-app-mysql
+    # connect container port 3306 to host port 3306
+    ports:
+      - "3308:3306"
+    # set environment variables for container
+    environment:
+      # set password for MySQL root user to 'pass'
+      - MYSQL_ROOT_PASSWORD=pass
+      # create a database
+      - MYSQL_DATABASE=blog_app_db
+    expose:
+      # Opens port 3306 on the container
+      - "3306"
+    volumes:
+      - my-db:/var/lib/mysql
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    container_name: blog-app-phpmyadmin
+    ports:
+      - 2000:80
+    environment:
+      PMA_HOST: mysql
+volumes:
+  my-db:
