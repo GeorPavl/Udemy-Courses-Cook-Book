@@ -4,10 +4,13 @@ import com.springboot.blogrestapi.entity.Post;
 import com.springboot.blogrestapi.playload.PostDto;
 import com.springboot.blogrestapi.repository.PostRepository;
 import com.springboot.blogrestapi.service.PostService;
+import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+@Slf4j
 @Service
 public class PostServiceImpl implements PostService {
 
@@ -23,7 +26,7 @@ public class PostServiceImpl implements PostService {
 
         /* Convert entity to DTO */
         PostDto postResponse = new PostDto();
-        BeanUtils.copyProperties(post, newPost);
+        BeanUtils.copyProperties(newPost, postResponse);
 
         return postResponse;
     }
