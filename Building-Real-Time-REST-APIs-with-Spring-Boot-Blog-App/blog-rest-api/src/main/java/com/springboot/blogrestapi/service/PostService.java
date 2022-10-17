@@ -1,6 +1,7 @@
 package com.springboot.blogrestapi.service;
 
 import com.springboot.blogrestapi.playload.PostDto;
+import com.springboot.blogrestapi.playload.PostResponse;
 
 import java.util.List;
 
@@ -8,7 +9,7 @@ public interface PostService {
 
     PostDto createPost(PostDto postDto);
 
-    List<PostDto> getAllPosts(int pageSize, int pageNo);
+    PostResponse getAllPosts(int pageSize, int pageNo);
 
     PostDto getPostById(long id);
 
