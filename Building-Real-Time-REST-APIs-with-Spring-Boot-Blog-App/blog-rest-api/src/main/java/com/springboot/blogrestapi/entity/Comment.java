@@ -23,7 +23,7 @@ public class Comment {
     private String email;
 
     @Column(name = "message_body")
-    private String messageBody;
+    private String body;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "post_id", nullable = false)
