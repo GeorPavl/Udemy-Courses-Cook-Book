@@ -7,6 +7,7 @@ import com.springboot.blogrestapi.payload.PostResponse;
 import com.springboot.blogrestapi.repository.PostRepository;
 import com.springboot.blogrestapi.service.PostService;
 import lombok.extern.slf4j.Slf4j;
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -24,6 +25,10 @@ public class PostServiceImpl implements PostService {
 
     @Autowired
     private PostRepository postRepository;
+
+    @Autowired
+    private ModelMapper modelMapper;
+
     @Override
     public PostDto createPost(PostDto postDto) {
         /* Convert DTO to entity */
@@ -88,14 +93,16 @@ public class PostServiceImpl implements PostService {
     }
 
     private PostDto mapToDto(Post post) {
-        PostDto postDto = new PostDto();
-        BeanUtils.copyProperties(post, postDto);
+        PostDto postDto = modelMapper.map(post, PostDto.class);
+//        PostDto postDto = new PostDto();
+//        BeanUtils.copyProperties(post, postDto);
         return postDto;
     }
 
     private Post mapToEntity(PostDto postDto) {
-        Post post = new Post();
-        BeanUtils.copyProperties(postDto, post, new String[] { "id" });
+        Post post = modelMapper.map(postDto, Post.class);
+//        Post post = new Post();
+//        BeanUtils.copyProperties(postDto, post, new String[] { "id" });
         return post;
     }
 }
