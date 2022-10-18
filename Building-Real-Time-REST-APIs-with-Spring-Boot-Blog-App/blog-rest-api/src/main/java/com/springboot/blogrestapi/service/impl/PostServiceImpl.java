@@ -2,8 +2,8 @@ package com.springboot.blogrestapi.service.impl;
 
 import com.springboot.blogrestapi.entity.Post;
 import com.springboot.blogrestapi.exception.ResourceNotFoundException;
-import com.springboot.blogrestapi.playload.PostDto;
-import com.springboot.blogrestapi.playload.PostResponse;
+import com.springboot.blogrestapi.payload.PostDto;
+import com.springboot.blogrestapi.payload.PostResponse;
 import com.springboot.blogrestapi.repository.PostRepository;
 import com.springboot.blogrestapi.service.PostService;
 import lombok.extern.slf4j.Slf4j;

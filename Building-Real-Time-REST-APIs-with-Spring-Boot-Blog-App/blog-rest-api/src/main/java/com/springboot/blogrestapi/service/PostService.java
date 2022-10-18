@@ -1,9 +1,7 @@
 package com.springboot.blogrestapi.service;
 
-import com.springboot.blogrestapi.playload.PostDto;
-import com.springboot.blogrestapi.playload.PostResponse;
-
-import java.util.List;
+import com.springboot.blogrestapi.payload.PostDto;
+import com.springboot.blogrestapi.payload.PostResponse;
 
 public interface PostService {
 

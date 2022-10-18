@@ -1,4 +1,4 @@
-package com.springboot.blogrestapi.playload;
+package com.springboot.blogrestapi.payload;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
