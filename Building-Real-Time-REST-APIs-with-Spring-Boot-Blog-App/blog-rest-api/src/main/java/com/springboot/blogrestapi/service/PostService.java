@@ -9,7 +9,7 @@ public interface PostService {
 
     PostDto createPost(PostDto postDto);
 
-    PostResponse getAllPosts(int pageSize, int pageNo, String sortBy);
+    PostResponse getAllPosts(int pageSize, int pageNo, String sortBy, String sortDir);
 
     PostDto getPostById(long id);
 
