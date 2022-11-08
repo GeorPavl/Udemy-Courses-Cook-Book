@@ -28,42 +28,17 @@ export class HttpIntercepterBasicAuthServiceService implements HttpInterceptor{
       });
     }
 
-    let token2 = sessionStorage.getItem('testToken');
-    console.log(basicAuthHeaderString);
-    console.log('t2 ' + token2);
+    let token = sessionStorage.getItem('testToken');
 
-    if (token2===null) {console.log('test')}
+    if (token===null) {
+      console.log('No Token stored!');
+    }
     else {
-      const expiry = (JSON.parse(atob(token2.split('.')[1]))).exp;
-      console.log(expiry);
-      // console.log(expiry/86400000);
-      
-      console.log((Math.floor((new Date).getTime() / 1000)) >= expiry);
-      console.log('kalo = ' + ((expiry - (Math.floor((new Date).getTime()))) <= 60000))
+      const expiry = (JSON.parse(atob(token.split('.')[1]))).exp;
 
       if((Math.floor((new Date).getTime() / 1000)) >= expiry) {
-        console.log('inside if');
-        // this.basicAuthenticationService.logout();
-        // this.router.navigate(['todos']);
-
-        // this.http.get<any>(`${API_URL}/refresh`, {
-
-        // })
-        //   .pipe(
-        //     map(
-        //       data => {
-        //         // sessionStorage.setItem(AUTHENTICATED_USER, username);
-        //         console.log('inside map');
-        //         console.log('T2 = ' + token2);
-        //         sessionStorage.setItem('authenticatedToken', `Bearer ${data.token}`);
-        //         sessionStorage.setItem('testToken', data.token);
-        //         console.log(sessionStorage.getItem('authenticatedToken'));
-        //         return data;
-        //       }
-        //     )
-        //   );
-
-          console.log(sessionStorage.getItem('authenticatedToken'));
+        this.basicAuthenticationService.logout();
+        this.router.navigate(['todos']);
       }
     }
 
