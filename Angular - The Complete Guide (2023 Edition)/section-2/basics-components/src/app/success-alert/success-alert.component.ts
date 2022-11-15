@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SuccessAlertComponent implements OnInit {
 
+  serverId = 10156;
+  serverStatus = 'offline'
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  getServerStatus() {
+    return this.serverStatus;
   }
 
 }

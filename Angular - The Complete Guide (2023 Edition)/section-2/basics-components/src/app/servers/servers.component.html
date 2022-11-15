@@ -1,5 +1,14 @@
 <p>servers works!</p>
 
+<!-- Data binding of elemet property (disabled) -->
+<button class="btn btn-primary" [disabled]="!allowNewServer">Add Server</button>
+
+<!-- Property Binding vs String manipulation -->
+<!-- If you want to display some data in the view, user String manipulation -->
+<!-- If you want the value to change dynamically if the user do it from the UI, then use property binding -->
+<p>{{allowNewServer}}</p>
+<p [innerText]="allowNewServer"></p>
+
 <app-server></app-server>
 <app-server></app-server>
 
