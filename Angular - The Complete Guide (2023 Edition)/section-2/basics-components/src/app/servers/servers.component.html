@@ -15,16 +15,29 @@
 <!-- Property Binding vs String manipulation -->
 <!-- If you want to display some data in the view, user String manipulation -->
 <!-- If you want the value to change dynamically if the user do it from the UI, then use property binding -->
-<p>{{allowNewServer}}</p>
-<p [innerText]="allowNewServer"></p>
+<!-- <p>{{allowNewServer}}</p>
+<p [innerText]="allowNewServer"></p> -->
 
-<p>{{serverCreationStatus}}</p>
-<p>{{serverName}}</p>
+<!-- <p>{{serverCreationStatus}}</p>
+<p>{{serverName}}</p> -->
 
-<app-server></app-server>
-<app-server></app-server>
 
-<label>Username: </label>
+
+
+<p *ngIf="serverCreated;">Server was created, server name is {{ serverName }}.</p>
+
+<app-server *ngFor="let server of servers"></app-server>
+
+<!-- <label>Username: </label>
 <input type="text" class="form-control" [(ngModel)]="username">
-<button class="btn btn-info" [disabled]="!username" (click)="username=''">Change username</button>
+<button class="btn btn-info" [disabled]="!username" (click)="username=''">Change username</button> -->
 
+<button class="btn btn-warning" (click)="onToggleDetails()">Display Details</button>
+<p *ngIf="showSecret">Secret password = 'tuna'</p>
+<div *ngFor="let logItem of log; let i = index"
+    [ngStyle]="{backgroundColor: i >= 5 ? 'blue' : 'transparent'}"
+    [ngClass]="{'white-text' : i >= 5}">
+    {{ logItem }}
+</div>
+
+<hr>

@@ -1,1 +1,8 @@
 <h3>The Server Component</h3>
+
+<!-- Using build-in directives -->
+<!-- Append dynamically css class and style -->
+<p [ngStyle]="{backgroundColor: getColor()}"
+    [ngClass]="{online: serverStatus === 'online'}">
+  Server with {{serverId}} is {{serverStatus}}
+</p>
