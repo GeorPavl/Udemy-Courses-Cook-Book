@@ -24,3 +24,7 @@
 <app-server></app-server>
 <app-server></app-server>
 
+<label>Username: </label>
+<input type="text" class="form-control" [(ngModel)]="username">
+<button class="btn btn-info" [disabled]="!username" (click)="username=''">Change username</button>
+
